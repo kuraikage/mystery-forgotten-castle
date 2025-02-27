@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Work\\C\u002B\u002B\\mystery-forgotten-castle\\Mystery of the Forgotten Castle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD28C69B-34D2-4611-84F2-DFF0940A465E}|Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.vcxproj|E:\\Work\\C\u002B\u002B\\mystery-forgotten-castle\\Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD28C69B-34D2-4611-84F2-DFF0940A465E}|Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.vcxproj|solutionrelative:Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mystery of the Forgotten Castle.cpp",
+              "DocumentMoniker": "E:\\Work\\C\u002B\u002B\\mystery-forgotten-castle\\Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.cpp",
+              "RelativeDocumentMoniker": "Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.cpp",
+              "ToolTip": "E:\\Work\\C\u002B\u002B\\mystery-forgotten-castle\\Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.cpp",
+              "RelativeToolTip": "Mystery of the Forgotten Castle\\Mystery of the Forgotten Castle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-27T15:53:31.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

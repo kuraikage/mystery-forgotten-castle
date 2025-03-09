@@ -32,3 +32,8 @@
 *.app
 *.vsidx
 *.opendb
+
+# Visual Studio
+Mystery of the Forgotten Castle/.vs
+Mystery of the Forgotten Castle/x64
+Mystery of the Forgotten Castle/Mystery of the Forgotten Castle/x64

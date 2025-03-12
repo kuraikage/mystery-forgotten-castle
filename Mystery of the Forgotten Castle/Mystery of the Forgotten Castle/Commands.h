@@ -8,12 +8,17 @@ namespace Actions
 	constexpr std::string_view QUIT = "quit";
 }
 
-namespace Objects
+namespace Directions
 {
 	constexpr std::string_view NORTH = "north";
 	constexpr std::string_view SOUTH = "south";
 	constexpr std::string_view EAST = "east";
 	constexpr std::string_view WEST = "west";
+}
+
+namespace Items
+{
+	constexpr std::string_view KEY = "key";
 }
 
 // scoped enum

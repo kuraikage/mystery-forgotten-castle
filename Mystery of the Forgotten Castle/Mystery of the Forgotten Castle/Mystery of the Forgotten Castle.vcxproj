@@ -136,6 +136,7 @@
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Parser.h" />
+    <ClInclude Include="StringUtils.hpp" />
     <ClInclude Include="Third Party\magic_enum.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

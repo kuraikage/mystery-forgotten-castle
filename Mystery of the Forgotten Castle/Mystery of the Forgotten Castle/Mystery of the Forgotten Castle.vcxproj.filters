@@ -41,5 +41,8 @@
     <ClInclude Include="Third Party\magic_enum.hpp">
       <Filter>Third Party</Filter>
     </ClInclude>
+    <ClInclude Include="StringUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

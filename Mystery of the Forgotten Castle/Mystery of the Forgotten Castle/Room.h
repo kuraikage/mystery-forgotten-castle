@@ -11,8 +11,7 @@ private:
 	std::map<std::string_view, std::weak_ptr<Room>> m_exits; // Using weak_ptr to prevent circular references
 	//std::vector<std::unique_ptr<Item>> m_items;
 public:
-	Room(const std::string& name, const std::string& description);
-	Room(std::string&& name, std::string&& description);
+	Room(std::string name, std::string description);
 
 	Room(const Room&) = delete;
 	Room& operator=(const Room&) = delete;
@@ -26,4 +25,5 @@ public:
 	std::string_view GetName() const;
 	std::string_view GetDescription() const;
 };
+
 

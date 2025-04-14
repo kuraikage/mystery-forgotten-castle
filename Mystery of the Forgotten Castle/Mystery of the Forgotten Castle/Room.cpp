@@ -1,12 +1,7 @@
 #include "Room.h"
 
-Room::Room(const std::string& name, const std::string& description)
-	: m_name(name), m_description(description) {}
-
-Room::Room(std::string&& name,  std::string&& description)
-	: m_name(std::move(name)), m_description(std::move(description))
-{
-}
+Room::Room(std::string name, std::string description)
+	: m_name(std::move(name)), m_description(std::move(description)) {}
 
 void Room::Connect(const std::string_view& direction, const std::shared_ptr<Room>& room) {
 	m_exits[direction] = room;

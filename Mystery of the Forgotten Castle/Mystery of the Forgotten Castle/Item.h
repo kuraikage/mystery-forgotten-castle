@@ -1,7 +1,9 @@
 #pragma once
 #include <string>
+#include "Interactable.h"
+#include "Pickupable.h"
 
-class Item
+class Item : public IInteractable, public IPickupable
 {
 private:
 	std::string m_name;
@@ -15,9 +17,9 @@ public:
 	Item(Item&&) = delete;
 	Item& operator=(Item&&) = delete;
 
-	[[nodiscard]] inline std::string_view GetName() const { return m_name; }
+	[[nodiscard]] inline std::string_view GetName() const override { return m_name; }
 	[[nodiscard]] inline std::string_view GetDescription() const { return m_description; }
 
-	virtual void Use() = 0;
+	virtual void Use() override = 0;
 };
 

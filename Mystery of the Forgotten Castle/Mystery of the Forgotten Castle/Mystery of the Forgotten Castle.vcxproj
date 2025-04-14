@@ -137,9 +137,12 @@
   <ItemGroup>
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Interactable.h" />
+    <ClInclude Include="Pickupable.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Parser.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="Exit.h" />
     <ClInclude Include="StringUtils.hpp" />
     <ClInclude Include="Third Party\magic_enum.hpp" />
   </ItemGroup>

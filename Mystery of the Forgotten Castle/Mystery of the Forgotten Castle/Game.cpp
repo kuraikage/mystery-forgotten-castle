@@ -24,7 +24,7 @@ void Game::Run()
 
 		auto command = parser.ParseCommand(input);
 
-		if (command.action == Actions::QUIT)
+		if (command.action == actions::QUIT)
 		{
 			std::cout << "Goodbye!\n";
 			break;

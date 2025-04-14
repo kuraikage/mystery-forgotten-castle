@@ -1,14 +1,14 @@
 #pragma once
 #include <string_view>
 
-namespace Actions
+namespace actions
 {
 	constexpr std::string_view MOVE = "move";
 	constexpr std::string_view GO = "go";
 	constexpr std::string_view QUIT = "quit";
 }
 
-namespace Directions
+namespace directions
 {
 	constexpr std::string_view NORTH = "north";
 	constexpr std::string_view SOUTH = "south";
@@ -16,7 +16,7 @@ namespace Directions
 	constexpr std::string_view WEST = "west";
 }
 
-namespace Items
+namespace items
 {
 	constexpr std::string_view KEY = "key";
 }

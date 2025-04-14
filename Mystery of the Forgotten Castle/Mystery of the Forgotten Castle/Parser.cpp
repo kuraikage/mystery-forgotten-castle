@@ -2,7 +2,7 @@
 #include <string_view>
 #include "StringUtils.hpp"
 
-Command Parser::ParseCommand(std::string_view input) const
+SCommand Parser::ParseCommand(std::string_view input) const
 {
 	if (input.empty())
 		return { "", "" };

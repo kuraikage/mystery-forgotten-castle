@@ -131,11 +131,13 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Mystery of the Forgotten Castle.cpp" />
     <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Room.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Parser.h" />
+    <ClInclude Include="Room.h" />
     <ClInclude Include="StringUtils.hpp" />
     <ClInclude Include="Third Party\magic_enum.hpp" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-struct Command
+struct SCommand
 {
 	std::string action;
 	std::string object;
@@ -10,5 +10,5 @@ struct Command
 class Parser
 {
 public:
-	Command ParseCommand(std::string_view input) const;
+	SCommand ParseCommand(std::string_view input) const;
 };

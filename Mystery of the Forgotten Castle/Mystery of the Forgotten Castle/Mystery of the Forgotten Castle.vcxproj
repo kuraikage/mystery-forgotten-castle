@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Mystery of the Forgotten Castle.cpp" />
     <ClCompile Include="Parser.cpp" />
     <ClCompile Include="Room.cpp" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Parser.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="StringUtils.hpp" />

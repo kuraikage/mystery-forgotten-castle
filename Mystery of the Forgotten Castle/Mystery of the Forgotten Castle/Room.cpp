@@ -1,4 +1,5 @@
 #include "Room.h"
+#include "StringUtils.hpp"
 
 Room::Room(std::string name, std::string description)
 	: m_name(std::move(name)), m_description(std::move(description)) {}
@@ -15,10 +16,26 @@ std::shared_ptr<Room> Room::GetExit(const std::string_view& direction) const {
 	return nullptr;
 }
 
-std::string_view Room::GetName() const {
-	return m_name;
-}
+std::unique_ptr<Item> Room::TakeItem(const std::string& itemName)
+{
+	if(itemName.empty())
+		return nullptr;
 
-std::string_view Room::GetDescription() const {
-	return m_description;
+	if(m_items.empty())
+		return nullptr;
+
+	const std::string& lowerItemName = ToLower(itemName);
+
+	auto it = std::find_if(m_items.begin(), m_items.end(),
+		[&lowerItemName](const std::unique_ptr<Item>& item)
+	{
+		return ToLower(item->GetName()) == lowerItemName;
+	});
+
+	if(it == m_items.end())
+		return nullptr;
+
+	std::unique_ptr<Item> removedItem = std::move(*it);
+	m_items.erase(it);
+	return removedItem;
 }
